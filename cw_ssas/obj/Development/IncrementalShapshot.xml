@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>cw_ssas</Database>
+    <Server>DESKTOP-Q1RS7KV</Server>
+    <ConnectionString>Data Source=DESKTOP-Q1RS7KV;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>TgHD/rsuRvepU8bVNwEtNf0l0Iw=08.12.2024 18:35:2208.12.2024 18:35:22</TimeStamp>
+        <ID>
+          <String>Student1DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>6D9TT7NwHhQu8nHdawyoVL4Dv2Q=08.12.2024 18:38:2508.12.2024 18:36:18</TimeStamp>
+        <ID>
+          <String>Student1DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>X4fW5XgmLOAiLJS0zZm/oL+PrNI=08.12.2024 18:42:1208.12.2024 18:38:25</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TyPm3AZITCw654d25elRygD6BrI=08.12.2024 18:42:1208.12.2024 18:38:35</TimeStamp>
+        <ID>
+          <String>Dim Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7rfN+TxTfi3tOYCQ3BogcNGPMeg=08.12.2024 18:42:1208.12.2024 18:38:35</TimeStamp>
+        <ID>
+          <String>Dim Hostel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MI7PQ/FChK3kcY5MuBH/9Tf6QzM=08.12.2024 18:42:1208.12.2024 18:38:35</TimeStamp>
+        <ID>
+          <String>Dim Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AJFMqHckyJJMK7M73+kqemD4aDY=08.12.2024 18:42:1208.12.2024 18:38:35</TimeStamp>
+        <ID>
+          <String>Dim Teacher</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OgpZcHWEZtectaPeWOxq3fSDS6k=08.12.2024 18:42:1208.12.2024 18:38:35</TimeStamp>
+        <ID>
+          <String>Dim Course</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>66Z6xf//331bw8Xk/V+joBc1FM8=08.12.2024 18:42:1208.12.2024 18:38:35</TimeStamp>
+        <ID>
+          <String>Dim Library</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>2svKVKH9XU4rFxsdoESGGnSQzg0=08.12.2024 18:42:1208.12.2024 18:38:35CYVZLMo5t9/EBhdi22Nd3yoHb14=08.12.2024 18:38:3508.12.2024 18:38:35</TimeStamp>
+        <ID>
+          <String>Student1DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>u79I/TsgDLEjvJw+1/A0VEADtFw=08.12.2024 18:33:5508.12.2024 18:33:55</TimeStamp>
+      <ID>
+        <String>cw_ssas</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-12-08T16:45:05.546667Z</LastDeployed>
+</DeploymentSnapshot>

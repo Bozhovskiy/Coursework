@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-Q1RS7KV.Student1"
+  DTS:DTSID="{FB7CEA66-21B3-4548-829B-D3E20D26A4D3}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-Q1RS7KV;Initial Catalog=Student1;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-cw_ssis-{FB7CEA66-21B3-4548-829B-D3E20D26A4D3}DESKTOP-Q1RS7KV.Student1;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
